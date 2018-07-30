@@ -1,6 +1,10 @@
 #Code your detention class here
 class Detention
   
+  def initialize
+    @activity = "collective punishment"
+  end
+  
   def location=(location)
  @location = location
  end
@@ -29,9 +33,9 @@ class Detention
     @activity = activity
   end
   
-  # def activity
-  #   @activity
-  # end
+  def activity
+    @activity
+  end
    
    
     
