@@ -10,9 +10,9 @@ class Detention
     @location = location
   end
  
- def location
-   @location
- end
+  def location
+    @location
+  end
   
   def time=(time)
     @time = time
@@ -50,9 +50,9 @@ class Detention
     @add_student = add_student
   end
   
-  def add_student
-    @add_student
-  end
+  # def add_student
+  #   @add_student
+  # end
   
 end
 
