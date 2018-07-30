@@ -50,8 +50,8 @@ class Detention
     @students << name
   end
   
-  def add_student
-    @add_student
+  def remove_student(name)
+    @students.delete = name
   end
   
 end
