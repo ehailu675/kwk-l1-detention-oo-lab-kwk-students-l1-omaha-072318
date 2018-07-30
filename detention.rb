@@ -50,9 +50,9 @@ class Detention
     @students << name
   end
   
-  # def add_student
-  #   @add_student
-  # end
+  def add_student
+    @add_student
+  end
   
 end
 
