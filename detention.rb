@@ -6,8 +6,8 @@ class Detention
   end
   
   def location=(location)
- @location = location
- end
+    @location = location
+  end
  
  def location
    @location
